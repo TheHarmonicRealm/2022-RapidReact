@@ -93,15 +93,15 @@ public class Climber extends SpartronicsSubsystem
     public void periodic() {
         // logInfo("ROTATIONS " + getCurrentRotations());
 
-        double rotations = getCurrentRotations();
+        //double rotations = getCurrentRotations();
 
         // logInfo("theta = " + rotations);
 
-        if (mMotorSpeed > 0 && rotations > kMaxRotations)
-            setMotor(0);
+        //if (mMotorSpeed > 0 && rotations > kMaxRotations)
+        //    setMotor(0);
 
-        if (mMotorSpeed < 0 && rotations < kMinRotations)
-            setMotor(0);
+        //if (mMotorSpeed < 0 && rotations < kMinRotations)
+        //    setMotor(0);
     }
 
     public void zeroEncoder() {
